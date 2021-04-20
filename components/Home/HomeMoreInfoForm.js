@@ -13,7 +13,9 @@ export default function HomeMoreInfoForm() {
             If you need to know more information about what we can provide,
             email us using the request form, or call us today on:
           </p>
-          <p>0427 637 677 (Darryn) or 0400 041 169 (Kerri)</p>
+          <p className="font-medium">
+            0427 637 677 (Darryn) or 0400 041 169 (Kerri)
+          </p>
         </div>
       </div>
       <div className="bg-yellow-400 px-6 py-8">
@@ -40,14 +42,14 @@ export default function HomeMoreInfoForm() {
             required="required"
           />
           <textarea
-            className="appearance-none resize-none w-full py-2 px-3 my-2 h-32 font-light focus:outline-none"
+            className="appearance-none border resize-none w-full py-2 px-3 my-2 h-32 font-light focus:outline-none"
             placeholder="Equipment needed and days required"
             required="required"
           ></textarea>
           <input
             type="submit"
             value="SUBMIT"
-            className="w-full border md:w-auto py-3 px-8 font-medium bg-gray-900 text-gray-50"
+            className="w-full md:w-auto py-3 px-8 font-medium bg-gray-900 text-gray-50"
           />
         </form>
       </div>

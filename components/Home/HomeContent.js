@@ -8,7 +8,7 @@ export default function HomeContent() {
           <h3 className="text-3xl sm:text-4xl font-bold">
             HEAVY EQUIPMENT READY FOR YOUR JOB
           </h3>
-          <p className="my-4 text-gray-500 text-lg">
+          <p className="my-4 text-gray-600 text-lg">
             With 30 years experience contracting in the Northern Rivers area, we
             have equipment ready to get the job done.
           </p>

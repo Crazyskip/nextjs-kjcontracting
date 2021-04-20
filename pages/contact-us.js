@@ -15,8 +15,8 @@ export default function ContactUs() {
         <hr className="w-28 mx-auto border-yellow-400 mb-8" />
         <div className="w-11/12 md:w-10/12 xl:w-8/12 mx-auto flex flex-col lg:flex-row lg:justify-between">
           <div className="my-4 lg:w-10/12 xl:w-8/12">
-            <h4 className="font-bold text-2xl">CONTACTS</h4>
-            <div className="font-medium pt-2 pb-3">
+            <h4 className="font-bold text-3xl lg:text-4xl">CONTACTS</h4>
+            <div className="font-medium pt-2 pb-3 pl-1">
               <div>DARRYN: 0427 637 677</div>
               <div>KERRI: 0400 041 169</div>
               <div className="pt-2">EMAIL: kjcontracting2@gmail.com</div>
