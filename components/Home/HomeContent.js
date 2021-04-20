@@ -60,7 +60,7 @@ export default function HomeContent() {
 
           <div className="flex flex-col md:w-1/2">
             <div className="px-4 pb-4">
-              <Image src="/images/dump-truck.jpg" width="1200" height="1600" />
+              <Image src="/images/dump-truck.jpg" width="1200" height="1500" />
               <h4>TRUCKS, TRAILERS & ROLLERS</h4>
             </div>
 
