@@ -45,7 +45,7 @@ export default function HomeContent() {
         <div className="lg:w-1/2 flex flex-col md:flex-row text-xl font-bold">
           <div className="flex flex-col md:w-1/2">
             <div className="px-4 pb-4">
-              <Image src="/images/excavator.jpeg" width="1600" height="1200" />
+              <Image src="/images/excavator.jpg" width="1600" height="1200" />
               <h4>EXCAVATORS 8T TO 40T</h4>
             </div>
             <div className="px-4 pb-4">
@@ -60,7 +60,7 @@ export default function HomeContent() {
 
           <div className="flex flex-col md:w-1/2">
             <div className="px-4 pb-4">
-              <Image src="/images/dump-truck.jpeg" width="1200" height="1600" />
+              <Image src="/images/dump-truck.jpg" width="1200" height="1600" />
               <h4>TRUCKS, TRAILERS & ROLLERS</h4>
             </div>
 
