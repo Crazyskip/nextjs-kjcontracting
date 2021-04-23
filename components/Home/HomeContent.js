@@ -45,15 +45,15 @@ export default function HomeContent() {
         <div className="lg:w-1/2 flex flex-col md:flex-row text-xl font-bold">
           <div className="flex flex-col md:w-1/2">
             <div className="px-4 pb-4">
-              <Image src="/images/excavator.jpg" alt="excavator" width={1600} height={1200} />
+              <Image src="/images/excavator.jpg" alt="excavator" width={800} height={600} />
               <h4>EXCAVATORS 8T TO 40T</h4>
             </div>
             <div className="px-4 pb-4">
               <Image
                 src="/images/horizontal-grinder.jpg"
                 alt="horizontal grinder"
-                width={1600}
-                height={1000}
+                width={1000}
+                height={600}
               />
               <h4>GRADER, GRINDER & CHIPPER</h4>
             </div>
@@ -61,7 +61,7 @@ export default function HomeContent() {
 
           <div className="flex flex-col md:w-1/2">
             <div className="px-4 pb-4">
-              <Image src="/images/dump-truck.jpg" alt="dump truck" width={1500} height={1200} />
+              <Image src="/images/dump-truck.jpg" alt="dump truck" width={750} height={600} />
               <h4>TRUCKS, TRAILERS & ROLLERS</h4>
             </div>
 
@@ -69,8 +69,8 @@ export default function HomeContent() {
               <Image
                 src="/images/vertical-grab.jpg"
                 alt="vertical grab"
-                width={1600}
-                height={1100}
+                width={1000}
+                height={700}
               />
               <h4>VERTICAL GRAB</h4>
             </div>
