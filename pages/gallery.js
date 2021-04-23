@@ -24,27 +24,30 @@ export default function Gallery() {
             <div>
               <Image
                 src="/images/horizontal-grinder-thumb.jpg"
-                width="800"
-                height="600"
+                alt="horizontal grinder"
+                width={800}
+                height={600}
                 layout="responsive"
               />
             </div>
             <div className="h-32">
-              <Image src="/images/chipper-thumb.jpg" width="800" height="600" />
+              <Image src="/images/chipper-thumb.jpg" alt="wood chipper" width={800} height={600} />
             </div>
             <div>
               <Image
                 src="/images/dump-truck-thumb.jpg"
-                width="800"
-                height="600"
+                alt="dump truck"
+                width={800}
+                height={600}
                 layout="responsive"
               />
             </div>
             <div>
               <Image
                 src="/images/trailer-thumb.jpg"
-                width="800"
-                height="600"
+                alt="trailer"
+                width={800}
+                height={600}
                 layout="responsive"
                 objectFit="cover"
               />
@@ -52,8 +55,9 @@ export default function Gallery() {
             <div>
               <Image
                 src="/images/excavator-thumb.jpg"
-                width="800"
-                height="600"
+                alt="excavator"
+                width={800}
+                height={600}
                 layout="responsive"
                 objectFit="cover"
               />
@@ -61,8 +65,9 @@ export default function Gallery() {
             <div>
               <Image
                 src="/images/vertical-grab-thumb.jpg"
-                width="800"
-                height="600"
+                alt="vertical grab"
+                width={800}
+                height={600}
                 layout="responsive"
                 objectFit="cover"
               />

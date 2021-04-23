@@ -13,6 +13,8 @@ export default function Home() {
     <div className="font-roboto">
       <Head>
         <title>KJ Contracting PTY LTD</title>
+        <meta name="description" content="Landscaping Business" />
+        <meta name="keywords" content="Heavy Equipment, Northern Rivers, Macadamia Industry, Land Clearing" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

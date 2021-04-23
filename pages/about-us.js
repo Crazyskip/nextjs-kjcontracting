@@ -18,6 +18,7 @@ export default function AboutUs() {
         <div className="w-3/4 mx-auto logo-image">
           <Image
             src="/images/kjcontracting.jpg"
+            alt="kj contracting logo"
             width="700"
             height="700"
             layout="responsive"
