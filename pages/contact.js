@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Form from "../components/Contact-Us/Form";
+import Form from "../components/Contact/Form";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-export default function ContactUs() {
+export default function Contact() {
   return (
     <div className="font-roboto">
       <Head>

@@ -2,13 +2,13 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar(props) {
-  const [isExpanded, toggleExpansion] = useState(false);
+  const [expanded, setExpanded] = useState(false);
 
   const links = [
     { href: "/", name: "Home" },
     { href: "/gallery", name: "Gallery" },
-    { href: "/about-us", name: "About Us" },
-    { href: "/contact-us", name: "Contact Us" },
+    { href: "/about", name: "About Us" },
+    { href: "/contact", name: "Contact Us" },
   ];
 
   return (
@@ -24,7 +24,7 @@ export default function Navbar(props) {
         <button
           className="flex items-center px-3 text-gray-50 hover:text-gray-300 focus:outline-none"
           name="expand navbar"
-          onClick={() => toggleExpansion(!isExpanded)}
+          onClick={() => setExpanded(!expanded)}
         >
           <svg
             className="w-6 h-6"
@@ -43,18 +43,20 @@ export default function Navbar(props) {
         </button>
       </div>
       <div
-        className={`${isExpanded ? `block` : `hidden`
-          } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
+        className={`${
+          expanded ? `block` : `hidden`
+        } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-lg flex-grow lg:flex lg:justify-center">
           {links.map((link, index) => {
             return (
               <Link key={link.href + index} href={link.href}>
                 <a
-                  className={`block mt-4 mx-8 lg:inline-block lg:mt-0 hover:text-yellow-400 ${link.name === props.page
-                    ? "text-yellow-400"
-                    : "text-gray-50"
-                    }`}
+                  className={`block mt-4 mx-8 lg:inline-block lg:mt-0 hover:text-yellow-400 ${
+                    link.name === props.page
+                      ? "text-yellow-400"
+                      : "text-gray-50"
+                  }`}
                 >
                   {link.name}
                 </a>
