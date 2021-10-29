@@ -1,4 +1,4 @@
-export default function HomeMoreInfoForm() {
+export default function MoreInfoForm() {
   return (
     <section className="my-8 w-11/12 sm:w-4/5 mx-auto flex flex-col lg:flex-row">
       <div className="py-4 lg:mr-16">

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
-export default function HomeWhyChooseBanner() {
+export default function WhyChooseBanner() {
   return (
     <div className="why-choose-banner">
       <div className="bg-black bg-opacity-60 text-gray-50 font-light h-full pt-6 sm:pt-12 xl:pt-20 pl-6 pr-2">
