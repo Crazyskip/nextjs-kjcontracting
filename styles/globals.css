@@ -16,9 +16,6 @@ body {
 .banner {
   position: relative;
   height: 500px;
-  background-image: url("/images/horizontal-grinder-full.jpg");
-  background-size: cover;
-  background-position: center center;
 }
 
 .banner-box {
@@ -40,9 +37,6 @@ body {
 .why-choose-banner {
   position: relative;
   height: 550px;
-  background-image: url("/images/chipper.jpg");
-  background-size: cover;
-  background-position: center center;
 }
 
 .call-us-box {
@@ -55,7 +49,7 @@ body {
 
 .call-us-banner {
   position: relative;
-  background-image: url("/images/chipper.jpg");
+  background-image: url("/images/chipper.webp");
   background-size: cover;
   background-position: center center;
 }

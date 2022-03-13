@@ -25,6 +25,7 @@ export default function Navbar(props) {
           className="flex items-center px-3 text-gray-50 hover:text-gray-300 focus:outline-none"
           name="expand navbar"
           onClick={() => setExpanded(!expanded)}
+          aria-label="Toggle Nav Menu"
         >
           <svg
             className="w-6 h-6"

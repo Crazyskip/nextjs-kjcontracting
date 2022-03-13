@@ -1,10 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 export default function WhyChooseBanner() {
   return (
     <div className="why-choose-banner">
-      <div className="bg-black bg-opacity-60 text-gray-50 font-light h-full pt-6 sm:pt-12 xl:pt-20 pl-6 pr-2">
+      <Image
+        src="/images/chipper.webp"
+        layout="fill"
+        className="object-cover"
+        alt="chipper"
+      />
+      <div className="bg-black bg-opacity-60 text-gray-50 font-light h-full w-full pt-6 sm:pt-12 xl:pt-20 pl-6 pr-2 absolute">
         <div className="lg:w-11/12 xl:w-4/5 mx-auto flex flex-col lg:flex-row lg:justify-between">
           <div className="pr-8">
             <span className="text-2xl sm:text-4xl text-gray-50 font-bold">

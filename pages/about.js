@@ -9,6 +9,14 @@ export default function About() {
     <div className="font-roboto">
       <Head>
         <title>About Us - KJ Contracting PTY LTD</title>
+        <meta
+          name="description"
+          content="Northern Rivers Landscaping Business"
+        />
+        <meta
+          name="keywords"
+          content="Heavy Equipment, Northern Rivers, Macadamia Industry, Land Clearing"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar page="About Us" />
@@ -17,10 +25,10 @@ export default function About() {
       <div className="w-11/12 mx-auto flex flex-col sm:flex-row items-center my-4">
         <div className="w-3/4 mx-auto logo-image">
           <Image
-            src="/images/kjcontracting.jpg"
+            src="/images/kjcontracting.webp"
             alt="kj contracting logo"
-            width="700"
-            height="700"
+            width="350"
+            height="323"
             layout="responsive"
           />
         </div>

@@ -12,7 +12,10 @@ export default function Home() {
     <div className="font-roboto">
       <Head>
         <title>KJ Contracting PTY LTD</title>
-        <meta name="description" content="Landscaping Business" />
+        <meta
+          name="description"
+          content="Northern Rivers Landscaping Business"
+        />
         <meta
           name="keywords"
           content="Heavy Equipment, Northern Rivers, Macadamia Industry, Land Clearing"
@@ -24,9 +27,9 @@ export default function Home() {
       <Banner />
 
       <div className="py-12 text-center bg-gray-900">
-        <h1 className="text-xl sm:text-2xl md:text-3xl px-4 font-bold text-gray-50">
+        <h2 className="text-xl sm:text-2xl md:text-3xl px-4 font-bold text-gray-50">
           SPECIALISING IN THE MACADAMIA INDUSTRY
-        </h1>
+        </h2>
       </div>
 
       <section>
@@ -76,19 +79,19 @@ export default function Home() {
             <div className="flex flex-col md:w-1/2">
               <div className="px-4 pb-4">
                 <Image
-                  src="/images/excavator.jpg"
+                  src="/images/excavator.webp"
                   alt="excavator"
-                  width={800}
-                  height={600}
+                  width="800"
+                  height="600"
                 />
                 <h4>EXCAVATORS 8T TO 40T</h4>
               </div>
               <div className="px-4 pb-4">
                 <Image
-                  src="/images/horizontal-grinder.jpg"
+                  src="/images/horizontal-grinder.webp"
                   alt="horizontal grinder"
-                  width={1000}
-                  height={600}
+                  width="1000"
+                  height="600"
                 />
                 <h4>GRADER, GRINDER & CHIPPER</h4>
               </div>
@@ -97,20 +100,20 @@ export default function Home() {
             <div className="flex flex-col md:w-1/2">
               <div className="px-4 pb-4">
                 <Image
-                  src="/images/dump-truck.jpg"
+                  src="/images/dump-truck.webp"
                   alt="dump truck"
-                  width={750}
-                  height={600}
+                  width="750"
+                  height="600"
                 />
                 <h4>TRUCKS, TRAILERS & ROLLERS</h4>
               </div>
 
               <div className="px-4 pb-4">
                 <Image
-                  src="/images/vertical-grab.jpg"
+                  src="/images/vertical-grab.webp"
                   alt="vertical grab"
-                  width={1000}
-                  height={700}
+                  width="1000"
+                  height="700"
                 />
                 <h4>VERTICAL GRAB</h4>
               </div>
